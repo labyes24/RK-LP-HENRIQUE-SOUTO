@@ -55,16 +55,15 @@
  */
 const brokerProfile = {
   id: crypto.randomUUID(),
-  name: 'Winnetou Soares Martins',
-  CRECI: '64.763-F',
-  profileImage: '/broker/tom2.png',
+  name: 'Henrique Souto',
+  CRECI: '40.827-F',
+  profileImage: '/broker/henrique.png',
   description: {
-    title:
-      '"Pai do Bento e marido da Luciana, praticante de artes marciais e nas horas vagas se arrisca a cantar, tocando violão."',
+    title: '"Sou investidor especialista no mercado financeiro e imobiliário."',
     paragraph: [
-      'Apresento-me como seu corretor de imóveis, especializado em oferecer mais do que propriedades, vendo informações estratégicas e oportunidades de investimento sólido no dinâmico mercado imobiliário.',
-      'Estou aqui para ser seu guia confiável nessa jornada, proporcionando acesso aos insights valiosos sobre tendências do mercado, recomendações personalizadas para investimentos sólidos e orientação em cada etapa, desde pesquisa até a negociação de sucesso para as partes envolvidas.',
-      'Lembre-se: Na hora de negociar, solicite as certidões negativas necessárias para a realização da escritura.',
+      'Estou atuando no mercado imobiliário de florianópolis desde 2018, tenho experiência no mercado imobiliário aproximadamente 10 anos.',
+      'Eu sei o que meus clientes querem e proporciono a eles sempre a melhor experiência quando o assunto é investimento imobiliário tanto para moradia ou rendimentos.',
+      'Converse comigo e torne possível seu sonho virar realidade!',
     ],
   },
   address: {
@@ -74,12 +73,11 @@ const brokerProfile = {
     city: 'Florianópolis',
     state: 'SC',
   },
-  phone: '(48) 98826-2951 ',
-  email: 'winnetou@rkimoveis.com.br',
+  phone: '(48) 98842-1810',
+  email: 'henrique@rkimoveis.com.br',
   clientReview: {
-    review:
-      'Eu e meu marido adquirimos um imóvel através do corretor Winnetou Martins e fomos muito bem tratados do início até a conclusão da compra. Ele é hábil, competente e atencioso.',
-    client: 'Valzira Souza - Advogada',
+    review: '',
+    client: '',
   },
   comments: [
     {
