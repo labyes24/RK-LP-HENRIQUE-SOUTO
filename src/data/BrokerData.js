@@ -169,7 +169,104 @@ const brokerProfilePT = {
  * @type {BrokerProfile} The broker profile for ES language
  */
 const brokerProfileES = {
-  // Add broker profile ES text here
+  id: crypto.randomUUID(),
+  name: 'Henrique Souto',
+  CRECI: '40.827-F',
+  profileImage: '/broker/henrique.png',
+  description: {
+    title:
+      '"Soy un inversor especializado en el mercado financiero e inmobiliario."',
+    paragraph: [
+      'Trabajo en el mercado inmobiliario en Florianópolis desde 2018, tengo experiencia en el mercado inmobiliario desde hace aproximadamente 10 años.',
+      'Conozco las necesidades de mis clientes y siempre les brindo la mejor experiencia en cuanto a inversiones inmobiliarias, ya sea para residencia o para obtener rentabilidad.',
+      '¡Habla conmigo y asegúrate de que tu sueño se haga realidad!',
+    ],
+  },
+  address: {
+    street: 'Rua das Gaivotas',
+    number: '1709',
+    district: 'Ingleses',
+    city: 'Florianópolis',
+    state: 'SC',
+  },
+  phone: '(48) 98842-1810',
+  email: 'henrique@rkimoveis.com.br',
+  clientReview: {
+    review: '',
+    client: '',
+  },
+  comments: [
+    {
+      id: crypto.randomUUID(),
+      author: 'Crecimiento Económico',
+      quote:
+        'Invertir en propiedades en el norte de Floripa significa ser parte de una comunidad en expansión',
+    },
+    {
+      id: crypto.randomUUID(),
+      author: 'Playa Paraíso',
+      quote:
+        'Quienes viven en Ingleses tienen acceso a un verdadero paraíso tropical: una impresionante playa de aguas cristalinas y arena blanca.',
+    },
+    {
+      id: crypto.randomUUID(),
+      author: 'Infraestructura completa',
+      quote:
+        'Las escuelas, clínicas médicas, supermercados y comercios locales aportan comodidad y practicidad en la vida cotidiana.',
+    },
+    {
+      id: crypto.randomUUID(),
+      author: 'Naturaleza preservada',
+      quote:
+        'Las playas de Ingleses y Santinho cuentan con áreas de preservación ambiental. Equilibrio entre desarrollo urbano y naturaleza exuberante.',
+    },
+    {
+      id: crypto.randomUUID(),
+      author: 'Diversidad de Propiedades',
+      quote:
+        'La diversidad de opciones inmobiliarias permite encontrar la vivienda ideal para todos los gustos y necesidades.',
+    },
+    {
+      id: crypto.randomUUID(),
+      author: 'Accesibilidad',
+      quote:
+        'La región está bien conectada, lo que facilita viajar a otras partes de la isla y al continente.',
+    },
+    {
+      id: crypto.randomUUID(),
+      author: 'Deportes acuáticos',
+      quote:
+        'El surf, el stand up paddle y otros deportes acuáticos son populares gracias a las condiciones ideales que ofrece el mar local.',
+    },
+    {
+      id: crypto.randomUUID(),
+      author: 'Calidad de vida',
+      quote:
+        'El ambiente relajado, la naturaleza exuberante y la infraestructura completa contribuyen a una experiencia única.',
+    },
+  ],
+  tips: [
+    {
+      id: crypto.randomUUID(),
+      quote:
+        'Define tu objetivo: a la hora de comprar una propiedad es fundamental entender el propósito, ya que influirá en tus elecciones.',
+    },
+    {
+      id: crypto.randomUUID(),
+      quote:
+        'Puedes tener diferentes objetivos como inversión en Reventa: Investigar la apreciación a largo plazo de la propiedad, ya sea usada o en construcción.',
+    },
+    {
+      id: crypto.randomUUID(),
+      quote:
+        'Si es para alquiler: Considere la demanda de alquileres en la zona y el retorno de la inversión, ya sea rentabilidad anual o estacional.',
+    },
+    {
+      id: crypto.randomUUID(),
+      quote:
+        'Si buscas vivienda prioriza tus necesidades personales, como la proximidad al trabajo y la calidad de vida en la región.',
+    },
+  ],
 }
 
 /**
