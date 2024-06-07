@@ -73,7 +73,7 @@ const brokerProfilePT = {
   description: {
     title: '"Sou investidor especialista no mercado financeiro e imobiliário."',
     paragraph: [
-      'Estou atuando no mercado imobiliário de florianópolis desde 2018, tenho experiência no mercado imobiliário aproximadamente 10 anos.',
+      'Estou atuando no mercado imobiliário de Florianópolis desde 2018, tenho experiência no mercado imobiliário aproximadamente 10 anos.',
       'Eu sei o que meus clientes querem e proporciono a eles sempre a melhor experiência quando o assunto é investimento imobiliário tanto para moradia ou rendimentos.',
       'Converse comigo e torne possível seu sonho virar realidade!',
     ],
